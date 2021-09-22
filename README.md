@@ -21,5 +21,7 @@ Host someinternalhost
 ' >> ~/.ssh/config
 ```
 
+```
 bastion_IP = 62.84.119.242
 someinternalhost_IP = 10.128.0.7
+```
