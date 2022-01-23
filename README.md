@@ -25,3 +25,21 @@ Host someinternalhost
 bastion_IP = 62.84.119.242
 someinternalhost_IP = 10.128.0.7
 ```
+
+# Задания №6
+
+Созданы исполняемые файлы:
+* install_ruby.sh
+* install_mongodb.sh
+* deploy.sh
+
+Файлы закоммичены как исполняемые.
+
+Дополнительное задание про startup script не выполнено.
+
+Проверить созданное приложение можно по http://62.84.118.235:9292/
+
+```
+testapp_IP = 62.84.118.235
+testapp_port = 9292
+```
