@@ -43,3 +43,5 @@ someinternalhost_IP = 10.128.0.7
 testapp_IP = 62.84.118.235
 testapp_port = 9292
 ```
+
+# Задание №7

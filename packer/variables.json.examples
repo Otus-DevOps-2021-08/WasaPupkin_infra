@@ -1,0 +1,6 @@
+{
+  "ya_service_account_key_file": "/path/to/key.json",
+  "ya_folder_id": "folder_id",
+  "ya_subnet_id": "subnet_id",
+  "username": "ubuntu"
+}
