@@ -25,3 +25,21 @@ Host someinternalhost
 bastion_IP = 62.84.119.242
 someinternalhost_IP = 10.128.0.7
 ```
+
+# Задание №8
+
+Установлен terraform v0.12.26, а НЕ 1.1.4.
+Обновлен .gitignore.
+
+В каталог terraform добавлены файлы:
+* скрипты развертывания проекта
+* 1. files/deploy.sh
+* 2. files/puma.service
+* main.tf
+* создан файл с описанием переменных variables.tf
+* создан файл со значениями для переменных terraform.tfvars
+* в файле outputs.tf описаны переменные для вывода в STDOUT
+* запущен скрипт
+* проверено развернутое приложение по внешнему адресу
+
+  http://62.84.117.66:9292/
