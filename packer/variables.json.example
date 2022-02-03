@@ -1,0 +1,6 @@
+{
+  "ya_service_account_key_file": "./key.example.json",
+  "ya_folder_id": "folder_id",
+  "ya_subnet_id": "subnet_id",
+  "ssh_username": "ubuntu"
+}
