@@ -21,8 +21,7 @@
       "type": "shell",
       "script": "scripts/install_ruby.sh",
       "execute_command": "sudo {{.Path}}",
-      "pause_before": 30,
-      "max_retries": 5
+      "pause_before": 30
     }
   ]
 }
