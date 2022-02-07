@@ -20,8 +20,7 @@
     {
       "type": "ansible",
       "playbook_file": "ansible/packer_app.yml",
-      "pause_before": 30,
-      "max_retries": 5
+      "pause_before": 30
     }
   ]
 }
