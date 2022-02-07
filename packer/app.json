@@ -18,10 +18,10 @@
   ],
   "provisioners": [
     {
-      "type": "shell",
-      "script": "scripts/install_ruby.sh",
-      "execute_command": "sudo {{.Path}}",
-      "pause_before": 30
+      "type": "ansible",
+      "playbook_file": "ansible/packer_app.yml",
+      "pause_before": 30,
+      "max_retries": 5
     }
   ]
 }
