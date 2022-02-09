@@ -1,3 +1,7 @@
-output "external_ip_address_app" {
-  value = yandex_compute_instance.app.network_interface.0.nat_ip_address
+output "service_key_out" {
+  value = yandex_storage_bucket.wasa-bucket.access_key
+}
+output "service_key_secret" {
+  value     = yandex_storage_bucket.wasa-bucket.secret_key
+  sensitive = true
 }
